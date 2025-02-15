@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=6.0">
+    <title>Europa Passage ru</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Мы всегда держим самые желанные позиции.</h1>
+        <nav>
+            <menu>
+                <li><a href="#Каталог">Каталог</a></li>
+                <li><a href="#Связь с нами">Связь с нами</a></li>
+            </menu>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Каталог">
+            <h2>Каталог</h2>
+            <div class="product">
+                <div class="image-container">
+                    <img src="file:///C:/Users/USER/Downloads/ep%20pics/%D0%91%D0%B5%D0%B7%20%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8.jpg" alt="Product Image">
+                </div>
+                <h3>Органайзер Hermes, лимитированный</h3>
+                <p>шелк</p>
+                <p>Цена: 145000 руб.</p>
+                <button onclick="addToCart('Органайзер Hermes, лимитированный', 145000)">Добавить в корзину</button>
+            </div>
+        </section>
+
+        <section id="Связь с нами">
+            <h2>Связь с нами</h2>
+            <p>Email: info@shop.com</p>
+        </section>
+
+        <section id="cart">
+            <h2>Корзина</h2>
+            <ul id="cart-items"></ul>
+            <p id="total-price">Сумма: 0 руб.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Магазин. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
